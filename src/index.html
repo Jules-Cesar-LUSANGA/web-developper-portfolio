@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Developper Portfolio</title>
+  <link href="./output.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/me.png" type="image/x-icon">
+
+
+</head>
+<body class="bg-gradient-to-r text-white from-slate-800 to-teal-900">
+  <div id="main" class="px-4 sm:px-14">
+    
+    <header>
+      <nav class="border-gray-200 mt-3">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+        
+          <h2 class="flex items-center font-bold text-2xl text">
+            <span class="text-green-500">Web</span><span class="text-lime-300">DEV</span>
+          </h2>
+          
+          <button id="humberger" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 uppercase">
+              <li>
+                <a href="#hero-section" class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:md:dark:hover:bg-transparent">Home</a>
+              </li>
+              <li>
+                <a href="#services-section" class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:md:dark:hover:bg-transparent">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio-section" class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:md:dark:hover:bg-transparent">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact-section" class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:md:dark:hover:bg-transparent">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <section id="hero-section">
+        <div class="sm:grid sm:grid-cols-3 ">
+          <div class="flex justify-center">
+            <img src="images/me.png" alt="My Image" class="h-96 w-72 saturate-50">
+          </div>
+          <div class="col-span-2 flex items-center sm:pl-3 sm:pr-14 pb-3">
+            <div>
+              <h1 class="text-teal-500 mb-2 font-bold text-2xl text-center sm:text-left">Hello I'm Jules-César</h1>
+              <h2 class="text-3xl text-center sm:text-left">Web developper</h2>
+              <p class="my-4">
+                I'm a web developer with a passion for building beautiful and functional websites. I specialize in back-end development, but I'm also comfortable working on the front-end. I'm always looking for new projects and challenges, so feel free to get in touch if you have something in mind.
+              </p>
+              <div class="text-center sm:text-left">
+                <a href="" class="inline-block font-bold text-black py-2 px-4 bg-teal-600">Hire me</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services-section" class="bg-gradient-to-r from-slate-700 to-teal-800 p-6">
+
+        <div id="services" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="bg-slate-800 hover:bg-gradient-to-r hover:from-slate-700 hover:to-teal-800 p-5">
+            <div class="flex justify-center">
+              <img src="images/services/web-dev.svg" class="h-80" alt="Web development image">
+            </div>
+            <h3 class="text-lg mt-3 mb-3 font-bold">Web Development</h3>
+            <p>
+              I specialize in building websites and web applications using modern technologies like HTML, CSS, JavaScript, and PHP. I can create custom solutions for your business that are tailogreen to your needs.
+            </p>
+          </div>
+          <div class="bg-slate-800 hover:bg-gradient-to-r hover:from-slate-700 hover:to-teal-800 p-5">
+            <div class="flex justify-center">
+              <img src="images/services/android-dev.svg" class="h-80" alt="Android development">
+            </div>
+            <h3 class="text-lg mt-3 mb-3 font-bold">Android Development</h3>
+            <p>
+              I can help you create a custom Android app that meets your needs and exceeds your expectations. I have experience working with clients in a variety of industries, and I can help you create an app that is both functional and user-friendly.
+            </p>
+          </div>
+          <div class="bg-slate-800 hover:bg-gradient-to-r hover:from-slate-700 hover:to-teal-800 p-5">
+            <div class="flex justify-center">
+              <img src="images/services/branding.svg" class="h-80" alt="Branding" class="">
+            </div>
+            <h3 class="text-lg mt-3 mb-3 font-bold">Branding</h3>
+            <p>
+              I can help you create a brand that stands out from the competition and resonates with your target audience. I have experience working with clients in a variety of industries, and I can help you create a brand that is both memorable and effective.
+            </p>
+          </div>
+        </div>
+
+        <div id="experiences" class="my-8">
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
+            <div class="row-span-2 flex items-center justify-center">
+              <div >
+                <h2 class="text-5xl mb-2 text-teal-400 font-bold">1.5</h2>
+                <p class="texst-white font-bold">Year experience</p>
+              </div>
+            </div>
+            <div class="bg-slate-800 hover:bg-gradient-to-r hover:from-slate-700 hover:to-teal-800 py-6">
+              <h2 class="text-3xl mb-2 text-teal-400 font-bold">60+</h2>
+              <p>Clients</p>
+            </div>
+            <div class="bg-slate-800 hover:bg-gradient-to-r hover:from-slate-700 hover:to-teal-800 py-6">
+              <h2 class="text-3xl mb-2 text-teal-400 font-bold">7</h2>
+              <p>Awards</p>
+            </div>
+            <div class="bg-slate-800 hover:bg-gradient-to-r hover:from-slate-700 hover:to-teal-800 py-6">
+              <h2 class="text-3xl mb-2 text-teal-400 font-bold">120+</h2>
+              <p>Completed projects</p>
+            </div>
+            <div class="bg-gray-900 hover:bg-gradient-to-r hover:from-slate-700 hover:to-teal-800 py-6">
+              <h2 class="text-3xl text-teal-400 font-bold">10</h2>
+              <p>Achievements</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio-section" class="my-6 p-6 bg-gradient-to-r from-slate-700 to-teal-800">
+        <div class="mb-3">
+          <h2 class="text-2xl font-bold mb-2">FEATURED PROJECTS</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="bg-slate-800 hover:bg-gradient-to-r hover:from-slate-700 hover:to-teal-800 py-6 p-5">
+            <img src="images/project.svg" alt="Project 1 Image" class="w-full h-40">
+            <h3 class="text-lg mt-3 mb-3 font-bold">Project 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+            </p>
+          </div>
+          <div class="bg-slate-800 hover:bg-gradient-to-r hover:from-slate-700 hover:to-teal-800 py-6 p-5">
+            <img src="images/project.svg" alt="Project 2 Image" class="w-full h-40">
+            <h3 class="text-lg mt-3 mb-3 font-bold">Project 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+            </p>
+          </div>
+          <div class="bg-slate-800 hover:bg-gradient-to-r hover:from-slate-700 hover:to-teal-800 py-6 p-5">
+            <img src="images/project.svg" alt="Project 3 Image" class="w-full h-40">
+            <h3 class="text-lg mt-3 mb-3 font-bold">Project 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact-section" class="bg-gradient-to-r from-slate-700 to-teal-800 p-6 mt-6 mb-3">
+        <div class="sm:grid grid-cols-2 gap-8">
+          <div class="flex items-center mb-5 sm:mb-0">
+            <div>
+              <h2 class="text-3xl font-bold mb-2">
+                Let's work together on your next project
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ut molestias hic temporibus? Hic, rem modi optio similique repudiandae minima at dicta voluptatem sit esse cum vitae quod sint? Laboriosam!
+              </p>
+            </div>
+          </div>
+          <form action="">
+            <div class="mb-2">
+              <label for="name" class="font-bold text-lg">Your name</label>
+              <input type="text" id="name" class="w-full p-2 mt-2 text-black rounded" placeholder="Name">
+            </div>
+            <div class="mb-2">
+              <label for="email" class="font-bold text-lg">Your email</label>
+              <input type="email" id="email" class="w-full p-2 mt-1 text-black rounded" placeholder="Email">
+            </div>
+            
+            <div class="mb-2">
+              <label for="message" class="font-bold text-lg">Your message</label>
+              <textarea name="message" id="message" cols="30" rows="5" class="w-full p-2 mt-2 text-black rounded" placeholder="Message"></textarea>
+            </div>
+            
+            <input type="submit" class="w-full p-2 mt-3 mb-3 bg-teal-700 hover:bg-gradient-to-r hover:from-slate-500 hover:to-teal-700 font-bold rounded" value="Send message">
+            
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <section class="text-center sm:flex items-center justify-between py-3">
+        <h2 class="font-bold text-2xl text">
+          <span class="text-green-500">Web</span><span class="text-lime-300">DEV</span>
+        </h2>
+
+        <p class="font-bold text-lg">
+          <span class="text-red-600">&hearts; </span>
+          2024 
+          <a href="https://ljcesar.vercel.app" target="_blank" class="hover:text-blue-500">Jules-César LUSANGA.</a>
+        </p>
+      </section>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
